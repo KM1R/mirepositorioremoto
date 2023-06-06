@@ -1,4 +1,8 @@
-function showAlert() { alert('¡Hola, esta es una alerta desde JavaScript!'); }
+function showAlert() { 
+  alert('¡Hola, esta es una alerta desde JavaScript!'); 
+}
+
+const form =document.getElementById ("myForm")
 
 function validateEmail(email) {
     const regex =  /^[^\s@]+@[^\s@]+\.[^\s@]{2,7}$/
@@ -6,18 +10,18 @@ function validateEmail(email) {
   }
   
   function validateForm() {
-    const emailInput = document.getElementById('email');
-    const email = emailInput.value;
-    
-    if (!validateEmail(email)) {
-      alert('Por favor ingrese un correo electrónico válido.');
+    const Input = document.getElementById('email');
+    const InputValue = input.value
+
+    if (!validateEmail(inputValue)) {
+      alert('Por favor ingrese un correo electrónico válido.')
     } else {
-      alert('Correo electrónico enviado correctamente.');
+      alert('Correo electrónico enviado correctamente.')
     }
   }
   if (form) {
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
+    form.addEventListener('submit', function(lala) {
+      lala.preventDefault();
       validateForm();
     })
   }
