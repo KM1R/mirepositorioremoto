@@ -97,6 +97,14 @@ h3{
     justify-content: center;
     flex: wrap;
 }
+.video-conteiner {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+}
+
+video-container
 .greeting {
   text-align: center;
 }
@@ -139,10 +147,21 @@ h3{
     .img-container {
       flex-direction: column;
       }
+    .video-conteiner {
+      padding: 10px;
+    }
+    iframe, video {
+        max-width: 90px;
+      }
+
   }
   footer {
-    padding: 20px;
-    height: 200px;
-    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 200px;
+    background-color: whitesmoke;
+    
   }
