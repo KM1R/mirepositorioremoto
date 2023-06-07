@@ -153,26 +153,14 @@ video-container
     iframe, video {
         max-width: 90px;
       }
-
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    min-height: 200px;
-    background-color: whitesmoke;
-    
-  }
   */
   body {
-    background-color: lightblue;
-    color: darkblue;
+    background-color:blanchedalmond;
+    color: rgb(214, 93, 134);
   }
   
   h1 {
-    background-color: aliceblue;
+    background-color: lavenderblush;
     font-family: 'Arial', sans-serif;
     font-size: 36px;
     text-align: center;
@@ -192,7 +180,7 @@ video-container
   
   p {
     font-family: 'Georgia', serif;
-    color: rgb(183, 0, 255);
+    color: black;/*rgb(183, 0, 255);*/
     font-size: 25px;
     padding: 10px;
     margin: 20px;
@@ -224,7 +212,7 @@ video-container
     display: flex;
     padding: 10px;
     height: 50px;
-    background-color: darkmagenta;
+    background-color:rgb(214, 93, 134);
   }
   
   .navbar {
@@ -341,7 +329,7 @@ video-container
       background-color: whitesmoke;
     }
     button[aria-label="Haz clic en mí"] {
-      background-color: #0000FF; /* Botón azul */
+      background-color: black; /* Botón azul */
       color: #FFF; /* Letras blancas */
       border-radius: 10px; /* Bordes redondeados */
       padding: 8px 16px; /* Espaciado interno del botón */
@@ -399,7 +387,7 @@ video-container
       }
       
       .services-section h2 {
-        color: cornflowerblue;
+        color: rgb(214, 93, 134);
       }
       
       .service {
