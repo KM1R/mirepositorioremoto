@@ -191,7 +191,7 @@ video-container
     margin: 20px;
   }
   h3{
-    color:darkblue;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
   }
   .container {
@@ -331,7 +331,7 @@ video-container
       justify-content: center;
       padding: 20px;
       min-height: 200px;
-      background-color: rgb(214, 93, 134);
+      background-color:rgb(214, 93, 134);
     }
     button[aria-label="Haz clic en mí"] {
       background-color: black; /* Botón azul */
@@ -346,7 +346,7 @@ video-container
     }
     
     button[aria-label="Haz clic en mí"]:hover {
-      background-color: #0055FF; /* Botón azul más oscuro al pasar el mouse */
+      background-color: pink; /* Botón azul más oscuro al pasar el mouse */
       transform: scale(1.05); /* Escala ligeramente el botón al pasar el mouse */
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el mouse */
     }
@@ -364,7 +364,7 @@ video-container
     }
     
     .button-menu-toggle:hover {
-      background-color: #D8BFD8; /* Botón violeta clarito más oscuro al pasar el mouse */
+      background-color:pink; /* Botón violeta clarito más oscuro al pasar el mouse */
       transform: scale(1.05); /* Escala ligeramente el botón al pasar el mouse */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el mouse */
     }
@@ -392,7 +392,7 @@ video-container
       }
       
       .services-section h2 {
-        color: rgb(214, 93, 134);
+        color: hotpink;
       }
       
       .service {
@@ -423,4 +423,32 @@ video-container
           margin: 20px;
           display: inline-block;
         }
+      }
+      form {
+        text-align: center;
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      input[type="email"] {
+        display: block;
+        margin: 10px auto;
+        padding: 5px;
+      }
+      
+      button[type="submit"] {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 10px; /* Agrega bordes redondeados */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      button[type="submit"]:hover {
+        background-color: pink; /* Cambia el color a rosado al pasar el mouse por encima */
       }
