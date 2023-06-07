@@ -1,4 +1,4 @@
-body {background-color: lightblue;
+/* body {background-color: lightblue;
     color: darkblue;}
 h1 {background-color:aliceblue;
   font-family:'Arial',  sans-serif;
@@ -165,3 +165,258 @@ video-container
     background-color: whitesmoke;
     
   }
+  */
+  body {
+    background-color: lightblue;
+    color: darkblue;
+  }
+  
+  h1 {
+    background-color: aliceblue;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .imagen {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  h2 {background-color: aliceblue;
+  font-family: 'Arial',  sans-serif;
+  text-align: center;
+  }
+  
+  p {
+    font-family: 'Georgia', serif;
+    color: rgb(183, 0, 255);
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+  }
+  h3{
+    color:darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: darkmagenta;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .brand,
+  li>a {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+    
+  li>a {
+    padding: 8px 24px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #1BF7DE;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+    
+    .button-menu-toggle {
+      display: none;
+    }
+    .img-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: wrap;
+  }
+  .video-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  }
+  .greeting {
+    text-align: center;
+  }
+    @media (max-width: 768px) {
+      .column {
+        flex: 100%;
+      }
+    
+    
+      .nav-links {
+        display: none;
+      }
+    
+     
+      .button-menu-toggle {
+        display: block;
+        background-color: white;
+        border:none;
+        border-radius: 50px;
+        padding: 0 24px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+      }
+     
+      .nav-links.nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color:rgba(20,20,20,0.95);
+        width: 100%;
+        height: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap:70px;
+        font-size: 40px;
+      }
+      .img-container {
+        flex-direction: column;
+        }
+      .video-conteiner {
+        padding: 10px;
+      }
+      iframe, video {
+          max-width: 90px;
+        }
+  
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      padding: 20px;
+      min-height: 200px;
+      background-color: whitesmoke;
+    }
+    button[aria-label="Haz clic en mí"] {
+      background-color: #0000FF; /* Botón azul */
+      color: #FFF; /* Letras blancas */
+      border-radius: 10px; /* Bordes redondeados */
+      padding: 8px 16px; /* Espaciado interno del botón */
+      font-size: 16px; /* Tamaño de fuente */
+      border: none; /* Sin borde */
+      cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    }
+    
+    button[aria-label="Haz clic en mí"]:hover {
+      background-color: #0055FF; /* Botón azul más oscuro al pasar el mouse */
+      transform: scale(1.05); /* Escala ligeramente el botón al pasar el mouse */
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el mouse */
+    }
+  
+    .button-menu-toggle {
+      background-color: #E6E6FA; /* Botón violeta clarito */
+      color: #FFF; /* Letras blancas */
+      border-radius: 5px; /* Bordes redondeados */
+      padding: 8px 12px; /* Espaciado interno del botón */
+      font-size: 14px; /* Tamaño de fuente */
+      border: none; /* Sin borde */
+      cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    }
+    
+    .button-menu-toggle:hover {
+      background-color: #D8BFD8; /* Botón violeta clarito más oscuro al pasar el mouse */
+      transform: scale(1.05); /* Escala ligeramente el botón al pasar el mouse */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el mouse */
+    }
+    
+    @media (max-width: 767px) {
+      /* Estilos específicos para dispositivos móviles con un ancho de pantalla máximo de 767px */
+      .button-menu-toggle {
+        padding: 6px 10px; /* Espaciado interno reducido para dispositivos móviles */
+        font-size: 12px; /* Tamaño de fuente reducido para dispositivos móviles */
+      }
+    }
+    
+    .img-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .video-conteiner {
+      display: flex;
+      flex-direction: column}
+      .services-section {
+        text-align: center;
+      }
+      
+      .services-section h2 {
+        color: cornflowerblue;
+      }
+      
+      .service {
+        display: inline-block;
+        width: 33%;
+        margin: 20px;
+        text-align: center;
+      }
+      
+      .service img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 10px;
+      }
+      
+      .service h3 {
+        margin-top: 10px;
+        color: violet;
+      }
+      
+      .service p {
+        color: rgb(183, 0, 255);
+      }
