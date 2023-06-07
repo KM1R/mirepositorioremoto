@@ -323,7 +323,7 @@ video-container
         padding: 10px;
       }
       iframe, video {
-          max-width: 90px;
+          max-width: 100px;
         }
   
     }
@@ -419,4 +419,11 @@ video-container
       
       .service p {
         color: rgb(183, 0, 255);
+      }
+      @media (min-width: 768px) {
+        .service {
+          width: 33.33%;
+          margin: 20px;
+          display: inline-block;
+        }
       }
